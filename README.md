@@ -1,29 +1,29 @@
 # OpenCV_handbook
-Ubuntu 16.04+CUDA8.0+OPENCV3.3+Caffe环境搭建
-https://www.jianshu.com/p/b2470020e035
+<br>Ubuntu 16.04+CUDA8.0+OPENCV3.3+Caffe环境搭建
+<br>https://www.jianshu.com/p/b2470020e035
 
 
-About Nvidia
-https://blog.csdn.net/xunan003/article/details/81665835
+<br>About Nvidia
+<br>https://blog.csdn.net/xunan003/article/details/81665835
 
 
-卸载cmake的包:
-sudo make uninstall
-sudo rm -r build
+<br>卸载cmake的包:
+<br>sudo make uninstall
+<br>sudo rm -r build
 
 
 
 
-###apt-get install的降版本 安装aptitude，使用aptitude来进行降级。　　
-sudo apt-get install aptitude
+#apt-get install的降版本 安装aptitude，使用aptitude来进行降级。　　
+<br>sudo apt-get install aptitude
 
 
-使用aptitude命令进行降级
-aptitude install libncurses5=5.7
+<br>使用aptitude命令进行降级
+<br>aptitude install libncurses5=5.7
 
 
-命令解释
-aptitude install 包名=包的版本号  
+<br>命令解释
+<br>aptitude install 包名=包的版本号  
 
-关于PCL
-http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php
+<br>关于PCL
+<br>http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php
