@@ -27,3 +27,34 @@
 
 <br>关于PCL
 <br>http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php
+
+
+#更新GCC支持C++11：
+<br>cd gcc-5.3.0
+<br>./contrib/download_prerequisites
+<br> mkdir build_gcc_5.3.0
+<br>cd build_gcc_5.3.0
+<br>../configure --enable-checking=release --enable-languages=c --disable-multilib
+<br>make
+<br>make install
+#更新CMAKE：
+<br>cd cmake-3.10.3 
+<br>./bootstrap
+<br>make 
+<br>sudo make install
+<br>Tips:
+<br>当：version `GLIBCXX_3.4.18' not found则：
+<br> sudo find / -name libstdc++.so.6*
+<br>sudo cp /usr/local/lib64/libstdc++.so.6.0.21 /usr/lib/x86_64-linux-gnu/
+<br> sudo rm -rf  /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+<br>sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+(https://blog.csdn.net/amor_tila/article/details/77976964)
+
+#安装Pangolin：
+依赖：sudo apt-get install libglew-dev
+<br>git clone https://github.com/stevenlovegrove/Pangolin.git
+<br>cd Pangolin
+<br>mkdir build
+<br>cd build
+<br>cmake ..
+<br>make
