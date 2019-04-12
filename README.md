@@ -28,10 +28,10 @@
 
 <br>关于PCL
 <br>http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php
-#Ros
+# Ros
 <br>特别注意：安装后不能上网的，运行以下命令：sudo ln -s /run/resolvconf/resolv.conf /etc/resolv.conf
 
-##更新GCC支持C++11：
+## 更新GCC支持C++11：
 <br>cd gcc-5.3.0
 <br>./contrib/download_prerequisites
 <br> mkdir build_gcc_5.3.0
@@ -39,7 +39,7 @@
 <br>../configure --enable-checking=release --enable-languages=c --disable-multilib
 <br>make
 <br>make install
-##更新CMAKE：
+## 更新CMAKE：
 <br>cd cmake-3.10.3 
 <br>./bootstrap
 <br>make 
@@ -52,7 +52,7 @@
 <br>sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 (https://blog.csdn.net/amor_tila/article/details/77976964)
 
-##安装Pangolin：
+## 安装Pangolin：
 依赖：sudo apt-get install libglew-dev
 <br>git clone https://github.com/stevenlovegrove/Pangolin.git
 <br>cd Pangolin
