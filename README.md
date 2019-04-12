@@ -52,6 +52,8 @@
 <br>sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 (https://blog.csdn.net/amor_tila/article/details/77976964)
 
+## Orb_related:
+https://www.jianshu.com/p/dbf39b9e4617
 ## 安装Pangolin：
 依赖：sudo apt-get install libglew-dev
 <br>git clone https://github.com/stevenlovegrove/Pangolin.git
@@ -60,3 +62,4 @@
 <br>cd build
 <br>cmake ..
 <br>make
+
