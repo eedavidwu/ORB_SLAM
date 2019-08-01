@@ -1,4 +1,4 @@
-# OpenCV_handbook
+# OpenCV_orders
 <br>Ubuntu 16.04+CUDA8.0+OPENCV3.3+Caffe环境搭建
 <br>https://www.jianshu.com/p/b2470020e035
 <br>opencv2.4.11: https://www.linuxidc.com/Linux/2016-07/132882.htm
